@@ -1,7 +1,7 @@
 {% set name = "elasticsearch-async" %}
-{% set version = "5.2.0" %}
+{% set version = "6.0.0" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "f085a566264e92e59afeab2a172a56a32b9408d5c0a8c19958b0590b52badfb0" %}
+{% set hash_value = "555f9b7bc97c3f0484d940525aabd559e0c87feccefa4448a4d11ddbf4870c5f" %}
 
 package:
   name: {{ name|lower }}
