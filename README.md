@@ -17,12 +17,16 @@ the response.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/elasticsearch-async-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/elasticsearch-async-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/elasticsearch-async-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/elasticsearch-async-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/elasticsearch-async-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/elasticsearch-async-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/elasticsearch-async-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/elasticsearch-async-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elasticsearch-async/badges/version.svg)](https://anaconda.org/conda-forge/elasticsearch-async)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elasticsearch-async/badges/downloads.svg)](https://anaconda.org/conda-forge/elasticsearch-async)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-elasticsearch--async-green.svg)](https://anaconda.org/conda-forge/elasticsearch-async) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/elasticsearch-async.svg)](https://anaconda.org/conda-forge/elasticsearch-async) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/elasticsearch-async.svg)](https://anaconda.org/conda-forge/elasticsearch-async) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/elasticsearch-async.svg)](https://anaconda.org/conda-forge/elasticsearch-async) |
 
 Installing elasticsearch-async
 ==============================

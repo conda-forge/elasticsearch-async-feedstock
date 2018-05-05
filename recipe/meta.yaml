@@ -1,7 +1,7 @@
 {% set name = "elasticsearch-async" %}
-{% set version = "5.2.0" %}
+{% set version = "6.0.0" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "f085a566264e92e59afeab2a172a56a32b9408d5c0a8c19958b0590b52badfb0" %}
+{% set hash_value = "555f9b7bc97c3f0484d940525aabd559e0c87feccefa4448a4d11ddbf4870c5f" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,6 @@ source:
 
 build:
   number: 0
-  noarch: python
   script: python setup.py install  --single-version-externally-managed --record=record.txt
   skip: true  # [py2k]
 
@@ -25,7 +24,8 @@ requirements:
   run:
     - python
     - aiohttp
-    - elasticsearch >=5.0.0
+    - async-timeout
+    - elasticsearch >=6.0.0
 
 test:
   imports:
@@ -35,7 +35,7 @@ about:
   home: https://github.com/elastic/elasticsearch-py-async
   license: Apache 2.0
   license_family: Apache
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: LICENSE
   summary: Async backend for elasticsearch-py
   description: |
     This is an adapter for elasticsearch-py providing a transport layer based
