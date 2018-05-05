@@ -24,7 +24,8 @@ requirements:
   run:
     - python
     - aiohttp
-    - elasticsearch >=5.0.0
+    - async-timeout
+    - elasticsearch >=6.0.0
 
 test:
   imports:
