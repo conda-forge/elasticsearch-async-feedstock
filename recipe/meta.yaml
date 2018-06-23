@@ -1,7 +1,7 @@
 {% set name = "elasticsearch-async" %}
-{% set version = "6.0.0" %}
+{% set version = "6.1.0" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "555f9b7bc97c3f0484d940525aabd559e0c87feccefa4448a4d11ddbf4870c5f" %}
+{% set hash_value = "14fda8a46a6c54ad324c7baa9e9569433d2a8fe0481a74cdf35646aa1b90cbad" %}
 
 package:
   name: {{ name|lower }}
@@ -18,7 +18,7 @@ build:
   skip: true  # [py2k]
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
