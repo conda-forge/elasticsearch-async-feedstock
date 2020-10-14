@@ -1,7 +1,5 @@
 {% set name = "elasticsearch-async" %}
 {% set version = "6.2.0" %}
-{% set hash_type = "sha256" %}
-{% set hash_value = "2534f3ec80da275723cabd6d354c83eb4b4f6241ad1432b48c2c05fb12175ab1" %}
 
 package:
   name: {{ name|lower }}
@@ -10,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash_value }}
+  sha256: 2534f3ec80da275723cabd6d354c83eb4b4f6241ad1432b48c2c05fb12175ab1
 
 build:
-  number: 1000
+  number: 1001
   script: python setup.py install  --single-version-externally-managed --record=record.txt
   skip: true  # [py2k]
 
