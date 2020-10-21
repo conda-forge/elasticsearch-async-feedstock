@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://github.com/elastic/elasticsearch-py-async
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: Async backend for elasticsearch-py
